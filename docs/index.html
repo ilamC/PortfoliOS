@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="unity-container">
-      <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1480 height=1080 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,12 +57,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/porty.loader.js";
+      var loaderUrl = buildUrl + "/themain.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/porty.data.unityweb",
-        frameworkUrl: buildUrl + "/porty.framework.js.unityweb",
-        codeUrl: buildUrl + "/porty.wasm.unityweb",
+        dataUrl: buildUrl + "/themain.data.unityweb",
+        frameworkUrl: buildUrl + "/themain.framework.js.unityweb",
+        codeUrl: buildUrl + "/themain.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "portfoliOS",

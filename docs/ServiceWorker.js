@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-portfoliOS-0.1.0";
 const contentToCache = [
-    "Build/porty.loader.js",
-    "Build/porty.framework.js.unityweb",
-    "Build/porty.data.unityweb",
-    "Build/porty.wasm.unityweb",
+    "Build/themain.loader.js",
+    "Build/themain.framework.js.unityweb",
+    "Build/themain.data.unityweb",
+    "Build/themain.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
